@@ -1,0 +1,5 @@
+fun main () {
+    val email = "mail@gmail.com"
+    if (!email.contains ("@") || !email.contains ("."))
+    println("email don't correct")
+}
